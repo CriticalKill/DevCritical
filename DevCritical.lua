@@ -2491,9 +2491,9 @@ ToggleButton.BorderSizePixel = 0
 ToggleButton.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
 ToggleButton.Size = UDim2.new(0, 50, 0, 50)
 ToggleButton.Font = Enum.Font.SourceSans
-ToggleButton.Text = "Open Ui"
+ToggleButton.Text = "Critical Hub"
 ToggleButton.TextColor3 = Color3.fromRGB(255, 255, 255)
-ToggleButton.TextSize = 14.000
+ToggleButton.TextSize = 12.000
 ToggleButton.Draggable = true
 ToggleButton.MouseButton1Click:Connect(function()
 	game:GetService("VirtualInputManager"):SendKeyEvent(true,Enum.KeyCode.RightShift,false,game)
@@ -2503,7 +2503,7 @@ end)
 ---
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Tên Script", HidePremium = false, IntroText = "Tên Script", SaveConfig = true, ConfigFolder = "Tên Script"})
+local Window = OrionLib:MakeWindow({Name = "Critical Hub", HidePremium = false, IntroText = "Critical Hub", SaveConfig = true, ConfigFolder = "Critical Hub"})
 ----------Tab-----------------------
 local W = Window:MakeTab({
     Name = "Thông Tin",
@@ -2518,55 +2518,55 @@ local M = Window:MakeTab({
 })
 
 local ST = Window:MakeTab({
-    Name = "Cài đặt",
+    Name = "Cài Đặt",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local IQ = Window:MakeTab({
-    Name = "Vật phẩm",
+    Name = "Vật Phẩm",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local S = Window:MakeTab({
-    Name = "chri số",
+    Name = "Chỉ Số",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local E = Window:MakeTab({
-    Name = "định vị",
+    Name = "Định Vị",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local RA = Window:MakeTab({
-    Name = "tập kích",
+    Name = "Tập Kích",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local LC = Window:MakeTab({
-    Name = "người chơi",
+    Name = "Người Chơi",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local Wld = Window:MakeTab({
-    Name = "di chuyển",
+    Name = "Di Chuyển",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local SV = Window:MakeTab({
-    Name = "Thông tin server",
+    Name = "Thông Tin Server",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local D = Window:MakeTab({
-    Name = "Trái Ác quỷ",
+    Name = "Trái Ác Quỷ",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
@@ -2578,13 +2578,13 @@ local R = Window:MakeTab({
 })
 
 local SH = Window:MakeTab({
-    Name = "cửa hàng",
+    Name = "Shop",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local C = Window:MakeTab({
-    Name = "khác",
+    Name = "Khác",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
